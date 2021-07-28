@@ -3,8 +3,8 @@ pipeline {
 
     
 
-   /* stages {
-        stage('checkout') {
+    stages {
+      /*  stage('checkout') {
             steps {
                 // Get some code from a GitHub repository
                 git branch: 'main', url: 'https://github.com/maddurivenkys/jgsu-spring-petclinic.git'
