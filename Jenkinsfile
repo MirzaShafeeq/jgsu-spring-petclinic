@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+     agent { label 'sachin_vm' }
 
     
 
@@ -14,7 +14,7 @@ pipeline {
         
         stage('build'){
             steps {
-            bat 'mvnw.cmd clean package' // for linux sh 'mvnw clean package' or 'mvn clean package' can be used
+            sh './mvnw clean package' // for linux sh 'mvnw clean package' or 'mvn clean package' can be used
             }
         
 
