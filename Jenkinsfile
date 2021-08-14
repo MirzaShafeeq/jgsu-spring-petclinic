@@ -1,5 +1,5 @@
 pipeline {
-     agent { label 'sachin_vm' }
+     agent { label 'devops-server' }
 
     
 
@@ -7,7 +7,7 @@ pipeline {
       /*  stage('checkout') {
             steps {
                 // Get some code from a GitHub repository
-                git branch: 'main', url: 'https://github.com/maddurivenkys/jgsu-spring-petclinic.git'
+                git branch: 'main', url: 'https://github.com/MirzaShafeeq/jgsu-spring-petclinic.git'
             }
             
         } */
