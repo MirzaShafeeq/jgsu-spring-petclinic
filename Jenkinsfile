@@ -1,6 +1,7 @@
 pipeline {
-     agent { label 'devops-server' }
-
+     agent any 
+ /*    agent { label 'devops-server' }
+*/
     
 
     stages {
