@@ -4,4 +4,4 @@ COPY ${JAR_FILE} app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
 
 # tell docker what port to expose
-EXPOSE 8000
+EXPOSE 8001
